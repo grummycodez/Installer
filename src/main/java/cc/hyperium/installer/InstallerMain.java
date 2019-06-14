@@ -181,7 +181,7 @@ public class InstallerMain {
             UIManager.setLookAndFeel(new MetalLookAndFeel());
         } catch (Exception ignored) {
         }
-        frame = new JFrame("Hyperium Installer");
+        frame = new JFrame("Test Installer");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         try {
             frame.setIconImage(ImageIO.read(getClass().getResourceAsStream("/icons/hyperium.png")));
