@@ -184,7 +184,7 @@ public class InstallerMain {
         frame = new JFrame("Test Installer");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         try {
-            frame.setIconImage(ImageIO.read(getClass().getResourceAsStream("/icons/hyperium.png")));
+            frame.setIconImage(ImageIO.read(getClass().getResourceAsStream("/icons/file.jpg")));
         } catch (IOException e) {
             e.printStackTrace();
         }
