@@ -30,7 +30,7 @@ public class WelcomeScreen extends InstallerStep {
         }
         icon.setBounds(c.getWidth() / 2 - w / 2, w / 4, w, w);
 
-        JLabel text = new JLabel("Hyperium Installer", SwingConstants.CENTER);
+        JLabel text = new JLabel("Test Installer", SwingConstants.CENTER);
         text.setFont(InstallerMain.INSTANCE.getTitle());
         text.setForeground(Color.WHITE);
         text.setBounds(0, w / 4 + w + 10, c.getWidth(), 60);
